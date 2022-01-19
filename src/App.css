@@ -36,3 +36,20 @@
     transform: rotate(360deg);
   }
 }
+
+.Grid {
+  margin: auto;
+  margin-top: 5%;
+  width: 90%;
+  height: 85%;
+  min-height: 750px;
+  padding: 2%;
+  border: solid 1px black;
+  display: flex;
+  align-items: flex-end;
+}
+
+.number{
+  width: 30px;
+}
+
