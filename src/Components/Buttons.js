@@ -1,6 +1,6 @@
-function Random(props){
+function Randomize(props){
     return (
-      <button onClick={props.shuffle}>
+      <button onClick={props.randomize}>
                 Randomize
       </button>
     )
@@ -40,10 +40,19 @@ function Play(props){
 
 function Pause(props){
     return (
-        <button onClick={props.pause}>
+        <button id='pause'>
                   Pause
         </button>
-    )
+      )
 }
 
-export {Random, BackButton, ForwardButton, Play, Pause}
+function Sort(props){
+    return (
+        <button id='sort'  onClick={props.sort}>
+                  Sort
+        </button>
+      )
+}
+
+
+export {Randomize, BackButton, ForwardButton, Play, Pause, Sort}
